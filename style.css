@@ -1,0 +1,88 @@
+
+body {
+  background-color: #D8D5D8;
+  font-family: 'Irish Grover', cursive;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #403B40;
+}
+
+p {
+  text-align: center;
+}
+
+h1 {
+  color: #7F767F;
+  text-align: center;
+}
+
+h3 {
+  color: #7F767F;
+}
+
+ul {
+  color: rgb(39, 39, 39);
+  list-style: none;
+}
+
+#img1 {
+  height: 350px;
+  width: 250px;
+  border-radius: 10px;
+}
+
+.img2{
+  height: 180%;
+  width: 25%;
+  margin: 0px 10px;
+  /* margin-right: 50px;
+  margin-bottom: 30px; */
+  border-radius: 10px;
+}
+
+.img3{
+  height: 180px;
+  width: 220px;
+  margin: 0px 10px;
+  /* margin-right: 20px;
+  margin-bottom: 30px; */
+  border-radius: 10px;
+}
+
+ .container {
+  border: 0.1px solid black;
+  border-radius: 5px;
+  padding: 30px;
+  width: 800px;
+  margin: 25px auto;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.card {
+  text-align: center;
+  border: 0.1px solid black;
+  border-radius: 5px;
+  padding: 25px;
+  margin: 30px auto;
+  box-shadow: 3px 2px 3px black;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
